@@ -1,0 +1,69 @@
+/* 1. Identify the header, main, and footer of your page and add a skip to content link. */
+body{
+    font-family: Georgia, 'Times New Roman';
+}
+h1{
+    font-size: 30px;
+    margin: 12px;
+    /* font-family: Georgia, 'Times New Roman'; */
+    padding-top: 20px;
+}
+
+
+/* 2. Add the paragraph and link tags */
+p {
+    font-size: 18px;
+    /* font-family: Georgia, 'Times New Roman'; */
+    margin: 30px 12px;
+    /* max-width: 500px; */
+}
+
+/** DONE IN HTML **/
+
+/* 4. Style the links to in your site - make sure to indicate which one is the current page */
+
+nav li{
+	background-color: rgb(255, 184, 240);
+	padding: 10px 0px 10px 0px;
+	width: 24%;
+	border: 1px solid black;
+	display: inline-block;
+    text-align: center;
+}
+#title{
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+}
+.active{
+    color: rgb(255, 184, 240);
+    font-weight: bold;
+}
+a[href]{
+    margin: 12px;
+}
+
+/* 5. Add style to your images focusing on the box model. */
+
+img{
+    margin: 12px;
+    width: 300px;
+    padding: 10px;
+    border: 4px solid black;
+}
+
+/* 6. Add a hover style to your images */ 
+
+img:hover{
+   filter: grayscale();
+   /* border: dashed; */
+}
+footer{
+    background-color: rgb(255, 184, 240);
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+/*Added this so the links stay the same color*/
+a:visited{color:#0000FF}
